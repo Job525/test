@@ -17,7 +17,7 @@ namespace SyncService
             //{
             //    Console.WriteLine(item.Key + item.Value);
             //}
-            //Console.ReadKey();  rwer werwerew
+            //Console.ReadKey();  rwer werwerew   是的撒大所多
             ContractDAL contractDAL = new ContractDAL();    
             contractDAL.UploadContractToFtp();
         }
