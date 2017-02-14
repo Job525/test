@@ -18,7 +18,7 @@ namespace SyncService
             //    Console.WriteLine(item.Key + item.Value);
             //}
             //Console.ReadKey();
-            ContractDAL contractDAL = new ContractDAL();
+            ContractDAL contractDAL = new ContractDAL();    
             contractDAL.UploadContractToFtp();
         }
     }
